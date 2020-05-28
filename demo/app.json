@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/second/second",
+    "pages/three/three",
+    "pages/four/four"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "textColor": "#C4C8CD",
+    "selectedColor": "#639EFD",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "Home",
+        "activeIcon": "./img/home2.png",
+        "icon": "./img/home1.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "name": "Second",
+        "activeIcon": "./img/second2.png",
+        "icon": "./img/second1.png"
+      },
+      {
+        "pagePath": "pages/three/three",
+        "name": "Three",
+        "activeIcon": "./img/home2.png",
+        "icon": "./img/home1.png"
+      },
+      {
+        "pagePath": "pages/four/four",
+        "name": "four",
+        "activeIcon": "./img/second2.png",
+        "icon": "./img/second1.png"
+      }
+    ]
+  }
+}
